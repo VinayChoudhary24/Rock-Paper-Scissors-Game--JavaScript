@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rock-Paper-Scissors</title>
+
+        <!-- link Stylesheet -->
+        <link href="./style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!-- Main DIV that Consistes all other Div's -->
+        <div class="mainContainer">
+            <!-- Game Container -->
+            <div class="container">
+
+                <!-- The TOP Container -->
+                <div class="topButtons">
+                    <!-- Buttons for Rock, Paper and Scissor -->
+                    <button class="rpsButton" value="Rock">✊</button>
+                    <button class="rpsButton" value="Paper">🤚</button>
+                    <button class="rpsButton" value="Scissors">✌️</button>
+                </div>
+
+                 <!-- The Result Container -->
+                 <div class="resultContainer">
+                    <div id="player-score"></div>
+                    <div id="hands"></div>
+                    <div id="result"></div>
+                </div>
+    
+                <!-- The BOTTOM Container -->
+                <div class="bottomButtons">
+                    <!-- Buttons to Clear the Game -->
+                    <button class="rpsClearGame" id="clearGameBtn">🔴</button>
+                </div>
+
+            </div>
+        </div>
+        <!-- Load JavaScript -->
+        <script src="./script.js"></script>
+    </body>
+</html>
